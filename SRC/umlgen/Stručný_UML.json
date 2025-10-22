@@ -1,0 +1,2998 @@
+{
+    "proj_nodes": [
+        {
+            "nodetype": 2,
+            "pos_x": 52.0,
+            "pos_y": 51.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "analyzer.py",
+            "module_name": "analyzer.py",
+            "relations": [],
+            "methods": [
+                {
+                    "label": "build_ast_tree",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "create_attribute",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "create_method",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 48.0,
+            "pos_y": 124.0,
+            "width": 165,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 165,
+            "name": "Analyzer",
+            "module_name": "analyzer.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "analyzer.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "visit_Module",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "prepare_class_nodes",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "nodes",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "filename",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "module_node",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "module",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "module_node",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "module",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 2,
+            "pos_x": 215.0,
+            "pos_y": 53.0,
+            "width": 243,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 243,
+            "name": "gui_core.py",
+            "module_name": "gui_core.py",
+            "relations": [],
+            "methods": [
+                {
+                    "label": "clearArraysGui",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "prepare_diagram",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_nodes_gui",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_relations_gui",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_modules_gui",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_packages_gui",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_diagram",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_packages",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_nodes",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_node",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_relations",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_straight_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "draw_break_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "calculate_x_offset",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "calculate_relation_coords",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "clear_mover_coords",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "clear_break_coords",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "get_nodes_position_to_each_other",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "create_circle",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "update_module_coords",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "update_package_coords",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "get_node_by_id",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "get_relation_by_id",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "_nodesGui",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_modulesGui",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_packagesGui",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "FONT_SIZE",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "NODES_PADDING",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "MODULE_PADDING",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "MODULE_HEADER_HEIGHT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "TEXT_PADDING",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "CIRCLE_RADIUS",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "ARROW_RADIUS",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 2,
+            "pos_x": 236.0,
+            "pos_y": 124.0,
+            "width": 199,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 199,
+            "name": "gui_manager.py",
+            "module_name": "gui_manager.py",
+            "relations": [],
+            "methods": [
+                {
+                    "label": "setup_window",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_canvas",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_menu",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "add_command_to_menu",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "setup_button",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "release_mouse",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "set_right_click_menu",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "move_object",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "calculate_offsets",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "get_type_by_id",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_line_break",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_line_type",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "delete_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "hide_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "hide_relation_type",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "hide_node_attributes",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "hide_node_methods",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "show_modal_edit_node",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "show_node_detail",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "update_node_input",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "update_node",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "remove_node",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "start_new_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "cancel_new_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "config_new_realation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "add_new_relation",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "add_node_input",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "add_node",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "hide_node",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "click_node_menu_nodes",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "click_node_menu_relations",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "_relation_base_node",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_node_under_mouse",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_break_under_mouse",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_corner_under_mouse",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_mover_under_mouse",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_x_pos_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "_y_pos_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "stored_win_position",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 2,
+            "pos_x": 806.0,
+            "pos_y": 126.0,
+            "width": 149.0,
+            "height": 97.0,
+            "min_height": 40,
+            "min_width": 148.0,
+            "name": "models_core.py",
+            "module_name": "models_core.py",
+            "relations": [],
+            "methods": [],
+            "attributes": [],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 824.0,
+            "pos_y": 267.0,
+            "width": 100,
+            "height": 50.0,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "Project",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "proj_nodes",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "proj_modules",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "proj_packages",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 774.0,
+            "pos_y": 336.0,
+            "width": 100,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "NodeCore",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 39.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 149.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "__str__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "nodetype",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "height",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "min_height",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "min_width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "module_name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "relations",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "methods",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "attributes",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "draw_attributes",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "draw_methods",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "gui_object",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 947.0,
+            "pos_y": 277.0,
+            "width": 157,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 157,
+            "name": "NodeRelationCore",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "__str__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "type",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "break_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "break_y",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "target",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "straight",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "draw_type",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_parent_x_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_parent_y_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_target_x_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_target_y_offset",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 885.0,
+            "pos_y": 340.0,
+            "width": 111,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 111,
+            "name": "ModuleCore",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 48.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 149.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "__str__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "gui_object",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "package",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 969.0,
+            "pos_y": 225.0,
+            "width": 120,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 120,
+            "name": "PackageCore",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 1028.0,
+                    "break_y": 204.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 59.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 149.0,
+                    "line_target_y_offset": 78.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "__str__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "gui_object",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "modules",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1018.0,
+            "pos_y": 344.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "AttributeCore",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 1125.0,
+                    "break_y": 185.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 107.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 149.0,
+                    "line_target_y_offset": 59.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "label",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "public",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1003.0,
+            "pos_y": 126.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "MethodCore",
+            "module_name": "models_core.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_core.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "from_json",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "label",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "public",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 2,
+            "pos_x": 778.0,
+            "pos_y": 392.0,
+            "width": 246.0,
+            "height": 145.0,
+            "min_height": 40,
+            "min_width": 231,
+            "name": "models_gui.py",
+            "module_name": "models_gui.py",
+            "relations": [],
+            "methods": [
+                {
+                    "label": "update_text_visibility",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "create_circle",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "getTargetCoordinates",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "is_within_nodes_boundaries",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "is_within_nodes_boundaries_line",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "update_relation_break_coords",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "update_relation_straight_coords",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "CIRCLE_RADIUS",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "MODULE_HEADER_HEIGHT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "TEXT_PADDING",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 773.0,
+            "pos_y": 623.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "MainFrame",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 31.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "drag_start",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "drag_move",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "canvas",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "xsb",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "ysb",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 809.0,
+            "pos_y": 675.0,
+            "width": 154.0,
+            "height": 139.0,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "Drawable",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 130.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "label",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "canvas_object",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 974.0,
+            "pos_y": 588.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "LineGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 1055.0,
+                    "break_y": 694.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 81.0,
+                    "line_parent_y_offset": 40,
+                    "line_target_x_offset": 154.0,
+                    "line_target_y_offset": 19.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1288.0,
+            "pos_y": 448.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "TextGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 1365.0,
+                    "break_y": 732.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 77.0,
+                    "line_parent_y_offset": 40,
+                    "line_target_x_offset": 154.0,
+                    "line_target_y_offset": 57.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_position",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "content",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "public",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1455.0,
+            "pos_y": 783.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "CornerGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 40,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 86.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 1528.0,
+                    "break_y": 403.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 73.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 11.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_position",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "color",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "outline",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1196.0,
+            "pos_y": 650.0,
+            "width": 157,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 157,
+            "name": "NodeGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 1265.0,
+                    "break_y": 501.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 69.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 109.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_dimensions",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_position",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "type",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "attributes",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "methods",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "height",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "min_width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "min_height",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "method_separator",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "attributes_separator",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "draw_attributes",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "draw_methods",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "relationships",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "module_name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "corner_mover",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "height",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1339.0,
+            "pos_y": 848.0,
+            "width": 175,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 175,
+            "name": "RelationshipGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 1415.0,
+                    "break_y": 772.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 76.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 154.0,
+                    "line_target_y_offset": 97.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 1434.0,
+                    "break_y": 422.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 95.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 30.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_position",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_break_position",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_line_position",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "__str__",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "target",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "parent",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_x2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "pos_y2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "arrowhead_parent",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "arrowhead_target",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "break_circle",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "move_circle",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "mover_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "mover_y",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "break_x",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "break_y",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "type",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "straight",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "draw_type",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "default_line",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_parent_x_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_parent_y_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_target_x_offset",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "line_target_y_offset",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1160.0,
+            "pos_y": 803.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "ModuleGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 1178.0,
+                    "break_y": 515.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 18.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 123.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_position",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "x1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "x2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "y1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "y2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "text_width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "rectangle",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "text_rect",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "text",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "package",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 1065.0,
+            "pos_y": 851.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "PackageGui",
+            "module_name": "models_gui.py",
+            "relations": [
+                {
+                    "type": 1,
+                    "break_x": 1118.0,
+                    "break_y": 794.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "Drawable",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 53.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 154.0,
+                    "line_target_y_offset": 119.0
+                },
+                {
+                    "type": 2,
+                    "break_x": 1140.0,
+                    "break_y": 527.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "models_gui.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 75.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 246.0,
+                    "line_target_y_offset": 135.0
+                }
+            ],
+            "methods": [
+                {
+                    "label": "__init__",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "change_position",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [
+                {
+                    "label": "name",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "x1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "x2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "y1",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "y2",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "text_width",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "rectangle",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "text_rect",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "text",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "visible",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "modules",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 2,
+            "pos_x": 41.0,
+            "pos_y": 358.0,
+            "width": 153.0,
+            "height": 60.0,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "enums.py",
+            "module_name": "enums.py",
+            "relations": [],
+            "methods": [],
+            "attributes": [],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 52.0,
+            "pos_y": 455.0,
+            "width": 152,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 152,
+            "name": "RelationType",
+            "module_name": "enums.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "enums.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [],
+            "attributes": [
+                {
+                    "label": "GENERALIZATION",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "COMPOSITION",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "ASSOCIATION",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "CONTAINMENT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "PROTOCOL",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 44.0,
+            "pos_y": 279.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "NodeType",
+            "module_name": "enums.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 0,
+                    "break_y": 0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "enums.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 0.0,
+                    "line_parent_y_offset": 0.0,
+                    "line_target_x_offset": 0.0,
+                    "line_target_y_offset": 0.0
+                }
+            ],
+            "methods": [],
+            "attributes": [
+                {
+                    "label": "CLASS",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "MODULE",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "ABSTRACT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "PROTOCOL",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 231.0,
+            "pos_y": 457.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "Positions",
+            "module_name": "enums.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 259.0,
+                    "break_y": 406.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "enums.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 28.0,
+                    "line_parent_y_offset": 0,
+                    "line_target_x_offset": 153.0,
+                    "line_target_y_offset": 48.0
+                }
+            ],
+            "methods": [],
+            "attributes": [
+                {
+                    "label": "ABOVE",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "BELOW",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "LEFT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "RIGHT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "ABOVELEFT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "ABOVERIGHT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "BELOWLEFT",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "BELOWRIGHT",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 1,
+            "pos_x": 236.0,
+            "pos_y": 281.0,
+            "width": 150,
+            "height": 40,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "WidgetType",
+            "module_name": "enums.py",
+            "relations": [
+                {
+                    "type": 2,
+                    "break_x": 265.0,
+                    "break_y": 377.0,
+                    "target": {
+                        "nodetype": 1,
+                        "pos_x": 100,
+                        "pos_y": 100,
+                        "width": 150,
+                        "height": 40,
+                        "min_height": 40,
+                        "min_width": 150,
+                        "name": "enums.py",
+                        "module_name": null,
+                        "relations": [],
+                        "methods": [],
+                        "attributes": [],
+                        "draw_attributes": true,
+                        "draw_methods": true,
+                        "gui_object": null,
+                        "visible": true
+                    },
+                    "straight": false,
+                    "visible": true,
+                    "draw_type": true,
+                    "line_parent_x_offset": 29.0,
+                    "line_parent_y_offset": 40,
+                    "line_target_x_offset": 153.0,
+                    "line_target_y_offset": 19.0
+                }
+            ],
+            "methods": [],
+            "attributes": [
+                {
+                    "label": "NONE",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "NODE",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "LINE",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "BREAK",
+                    "visible": false,
+                    "public": true
+                },
+                {
+                    "label": "CORNER",
+                    "visible": false,
+                    "public": true
+                }
+            ],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        },
+        {
+            "nodetype": 2,
+            "pos_x": 290.0,
+            "pos_y": 377.0,
+            "width": 100,
+            "height": 42.0,
+            "min_height": 40,
+            "min_width": 150,
+            "name": "utils.py",
+            "module_name": "utils.py",
+            "relations": [],
+            "methods": [
+                {
+                    "label": "getConfig",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "set_text_color",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "set_module_color",
+                    "visible": true,
+                    "public": true
+                },
+                {
+                    "label": "set_node_color",
+                    "visible": true,
+                    "public": true
+                }
+            ],
+            "attributes": [],
+            "draw_attributes": false,
+            "draw_methods": false,
+            "gui_object": null,
+            "visible": true
+        }
+    ],
+    "proj_modules": [
+        {
+            "name": "analyzer.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "core"
+        },
+        {
+            "name": "gui_core.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "core"
+        },
+        {
+            "name": "gui_manager.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "core"
+        },
+        {
+            "name": "models_core.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "models"
+        },
+        {
+            "name": "models_gui.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "models"
+        },
+        {
+            "name": "enums.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "utils"
+        },
+        {
+            "name": "utils.py",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "package": "utils"
+        }
+    ],
+    "proj_packages": [
+        {
+            "name": "core",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "modules": [
+                "analyzer.py",
+                "gui_core.py",
+                "gui_manager.py"
+            ]
+        },
+        {
+            "name": "models",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "modules": [
+                "models_core.py",
+                "models_gui.py"
+            ]
+        },
+        {
+            "name": "utils",
+            "pos_x1": 0,
+            "pos_y1": 0,
+            "pos_x2": 0,
+            "pos_y2": 0,
+            "gui_object": null,
+            "visible": true,
+            "modules": [
+                "enums.py",
+                "utils.py"
+            ]
+        }
+    ]
+}
